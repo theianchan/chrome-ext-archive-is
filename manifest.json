@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
   // The version of the manifest format (2 is the current version).
-  "name": "Bloomberg to Archive.is",
+  "name": "Archive.is automator",
   // The name of the extension.
   "version": "1.0",
   // The version number of the extension.
-  "description": "Redirect Bloomberg Opinion articles to their archive.is versions.",
+  "description": "Redirect pages to their archive.is versions.",
   // A short description of the extension.
   "permissions": [
     // The permissions required by the extension.
