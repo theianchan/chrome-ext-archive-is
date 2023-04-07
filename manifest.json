@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  // The version of the manifest format (2 is the current version).
+  "name": "Bloomberg to Archive.is",
+  // The name of the extension.
+  "version": "1.0",
+  // The version number of the extension.
+  "description": "Redirect Bloomberg Opinion articles to their archive.is versions.",
+  // A short description of the extension.
+  "permissions": [
+    // The permissions required by the extension.
+    "webNavigation"
+    // The permission required to use the webNavigation API.
+  ],
+  "background": {
+    // The script that runs in the background.
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+    // Whether the background page should stay open.
+  },
+  "icons": {
+    // The icon for the extension.
+    "48": "icon48.png"
+    // The icon's filename and size (48x48 pixels).
+  }
+}
